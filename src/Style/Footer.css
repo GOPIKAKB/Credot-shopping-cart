@@ -1,0 +1,12 @@
+.footer-cntnr{
+    background-color: #FEEAEB;
+    padding: 50px 0px;
+    display: block;
+    margin: 0px auto;
+    width: 80%;        
+}
+.datail{
+    margin: 0px auto;
+    width: 37%;
+    text-align: start;
+}

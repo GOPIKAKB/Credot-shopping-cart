@@ -1,0 +1,23 @@
+.cat-cntnr{
+   display: flex;
+   flex-wrap: wrap; 
+   justify-content: space-between;
+   margin: 20px 0px;
+   height: 80px;
+   margin: 30px auto;
+   width: 80%;
+
+}
+.cat-item{
+width: 30%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 10px;
+border-radius: 15px;
+}
+.item-text{
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+}
