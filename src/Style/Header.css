@@ -1,17 +1,23 @@
-.header-cntnr{
+.header-cntnr {
     background-color: #f7f7f7;
-    /* margin-bottom: 20px ; */
-    margin:30px auto;
+    margin: 30px auto;
     width: 80%;
     display: block;
+    /* height: 60px; */
+}
 
+.cart {
+    background-color: #468DF9;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5px 10px; */
 }
-.cart{
-background-color: #468DF9;
-border-radius: 20px;
-/* width: 40px; */
-}
-.icon{
-color: white;
-text-align: center;
+
+.cart sup {
+    color: white;
+    font-size: 0.7rem;
+    /* margin-left: 5px; */
 }
