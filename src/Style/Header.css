@@ -3,7 +3,6 @@
     margin: 30px auto;
     width: 80%;
     display: block;
-    /* height: 60px; */
 }
 
 .cart {
@@ -13,11 +12,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 5px 10px; */
 }
 
 .cart sup {
     color: white;
     font-size: 0.7rem;
-    /* margin-left: 5px; */
 }

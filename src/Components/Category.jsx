@@ -10,11 +10,11 @@ function Category() {
     { id: 2, name: 'Bag', image: bag, bg: 'linear-gradient( #FE1A72, #FD1972)' },
     { is: 3, name: 'Shoes', image: shoes, bg: 'linear-gradient(to right,  #468DF9 , #0FF0C8)' }]
     return (
-        <div className='cat-cntnr'>
+        <div className='cat-cntnr'key={"category-item"}>
             {categoryList.map(item =>
                 <div key={item.id} style={{ backgroundImage: item.bg }} className='cat-item'>
                     <div className='item-text'>{item.name}</div>
-                    <div><img src={item.image} width={50}></img></div>
+                    <div><img src={item.image} width={50} alt={item.name}></img></div>
                 </div>
             )}
         </div>

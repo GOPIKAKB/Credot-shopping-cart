@@ -2,14 +2,12 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-    /* style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }} */
 }
 .card-cont{
 width: 18rem;
 box-shadow: 3px 6px 11px 5px #e7e7e7;
 border: 0px white;
 margin-top: 30px;
-    /* style={{ width: '18rem', boxShadow: '3px 6px 11px 5px #e7e7e7', border: ' 0px white',marginTop:'30px' }} */
 }
 @media (max-width:540px) {
     .align-card {

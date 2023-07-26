@@ -25,6 +25,5 @@ margin: 5px;
 @media (max-width: 540px) {
     .cat-item {
       width: 100%; 
-      /* justify-content: space-between;  */
     }
   }
