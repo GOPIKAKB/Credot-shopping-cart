@@ -31,7 +31,7 @@ function ProductList() {
   return (
     <div style={{display:'block',margin:'30px auto',width:'80%'}}>
       <Cards data={shoeLst} category='Shoes' addItem={addItem} />
-      <Cards data={backPackList} category='Back Packs' addItem={addItem} />
+      <Cards data={backPackList} category='Backpacks' addItem={addItem} />
     </div>
   )
 }

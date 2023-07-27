@@ -7,6 +7,13 @@
 }
 .datail{
     margin: 0px auto;
-    width: 37%;
+    width: 38%;
     text-align: start;
+}
+@media (max-width:540px) {
+    .datail{
+        width: 100%;
+        text-align: center;
+        padding: 0px 10px;
+    }
 }

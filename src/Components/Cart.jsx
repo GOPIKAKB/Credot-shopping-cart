@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { newContext } from '../App';
+import './../Style/Cart.css'
 
 function Cart() {
     const { cart } = useContext(newContext)
     const [total, setTotal] = useState(0)
-    const [count, setCount]=useState(0)
+    const [count, setCount] = useState(0)
 
     useEffect(() => {
         let sum = cart.reduce((total, item) => total + (item.count * item.price), 0)
@@ -13,15 +14,16 @@ function Cart() {
         setCount(totalCount)
         setTotal(sum)
     }, [cart])
+    
     return (
-        <div key="cart-item">
-           { total>0 && <h2>Sub Total ({count} Items ) : ${total}</h2>}
-           {total === 0 && <h2>Cart is Empty</h2>}
+        <div key="cart-item" className='cart-cntnr'>
+            {total > 0 && <h2>Sub Total ({count} Items ) : ${total}</h2>}
+            {total === 0 && <h2>Cart is Empty</h2>}
             {cart.map(item =>
-                <Card key={item.id} style={{ marginBottom: '20px', width: '50%', margin: '20px auto' }}>
+                <Card key={item.id} className='card-cntnr'>
                     <Container>
                         <Row>
-                            <Col xs={12} md={4} style={{ display: 'flex', alignItems: 'center' }}>
+                            <Col xs={12} md={4} className='img-cntnr'>
                                 <Card.Img src={item.image} alt={item.title} />
                             </Col>
                             <Col xs={12} md={8}>

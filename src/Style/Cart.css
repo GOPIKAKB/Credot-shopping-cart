@@ -1,0 +1,14 @@
+.cart-cntnr {
+    margin-top: 30px;
+}
+
+.card-cntnr {
+    margin-bottom: 20px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.img-cntnr {
+    display: flex;
+    align-items: center;
+}
